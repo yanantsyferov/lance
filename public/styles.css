@@ -360,6 +360,14 @@ body {
     justify-content: space-between;
 }
 
+.footer-logo-info {
+    width: 175px;
+}
+
+.footer-logo-info > div {
+    width: 100%;
+}
+
 .company-info {
     background-color: #ECE0F2;
     text-align: center;
@@ -369,10 +377,59 @@ body {
 }
 
 .footer .phone {
-    font-size: 21px;
+    font-size: 22px;
 }
 
 .footer .email {
-    font-size: 14px;
+    font-size: 12.6px;
 }
 
+.footer .social-links {
+    opacity: 0.2;
+}
+
+.footer .social-links a {
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    opacity: 0.8;
+}
+
+.footer-links > div {
+    margin-bottom: 10px;
+}
+
+.footer .copyright {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.payments {
+    margin-top: 10px;
+    display: flex;
+}
+
+.payment {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 1080px) {
+    .exchange-description,
+    .currency-info{
+        display: none;
+    }
+
+    .exchange {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exchange-header {
+        width: 600px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+}
