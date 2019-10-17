@@ -1,0 +1,378 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.logo {
+    width: 173px;
+    height: 50px;
+    background-color: #c4c4c4;
+}
+
+.top-bg-image {
+    position: absolute;
+    width: 646px;
+    height: 583.35px;
+    left: -139px;
+    top: -55px;
+    z-index: -1;
+}
+
+.middle-bg-image {
+    position: absolute;
+    width: 537px;
+    height: 427px;
+    right: -130px;
+    top: 41%;
+    z-index: -1;
+}
+
+.bottom-bg-image {
+    position: absolute;
+    width: 537px;
+    height: 427px;
+    left: -116px;
+    bottom: 6%;
+    z-index: -1;
+}
+
+.main-wrapper {
+    margin-top: 34px;
+}
+
+.header-content {
+    color: #233878;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-item {
+    margin-right: 1.4em;
+}
+
+.login-icon {
+    height: 29px;
+    width: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.content-block {
+    color: #233878;
+    margin-top: 140px;
+}
+
+.content-block-header {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.exchange {
+    display: flex;
+    margin-top: 80px;
+    color: #233878;
+}
+
+.exchange-form {
+    width: 520px;
+    height: 513px;
+    color: black;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exchange-header {
+    font-size: 38px;
+    line-height: 47px;
+}
+
+.exchange-description {
+    font-size: 20px;
+    line-height: 30px;
+    width: 400px;
+}
+
+.currency-info {
+    margin-top: 45px;
+}
+
+.currency-cards-wrapper {
+    display: flex;
+}
+
+.currency-card {
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    width: 159px;
+    height: 182px;
+    background: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.currency-cards-wrapper .currency-card:last-child {
+    margin-right: 0;
+}
+
+.currency-to-result {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 19px;
+}
+
+.currency-card-header {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.currency-from-symbol {
+    margin-right: 7px;
+}
+
+.currency-from-name {
+    margin-right: 3px;
+}
+
+.currency-to-name {
+    margin-left: 3px;
+}
+
+.currency-difference {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 24px;
+    color: #6165CD;
+    margin-bottom: 20px;
+}
+
+.currency-updated-time {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #B3B3B3;
+    width: 100px;
+}
+
+.trust-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trust-card {
+    width: 225px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.trust-image-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.trust-card-header {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.trust-card-description {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.steps-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    position: relative;
+}
+
+.steps-wrapper .step:last-child {
+    margin-right: 0;
+}
+
+.step-arrow {
+    position: absolute;
+    right: -40px;
+    top: 40px;
+
+}
+
+.step-header {
+    max-width: 240px;
+}
+
+.arrow-body {
+    height: 2px;
+    width: 55px;
+    background-color: #233878;
+    position: relative;
+}
+
+.arrow-body::before, .arrow-body::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #233878;
+    width: 10px;
+    border-radius: 2px;
+}
+
+.arrow-body::before {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    transform: rotate(35deg);
+}
+
+.arrow-body::after {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    transform: rotate(-35deg);
+}
+
+.step-description {
+    max-width: 275px;
+}
+
+.comments-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-card {
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 38px;
+    height: 220px;
+    width: 490px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.comment-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.comment-text {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.comment-header {
+    margin-bottom: 15px;
+}
+
+.fake-comments-warning {
+    margin-top: 40px;
+    box-sizing: border-box;
+    background: #F9EEFF;
+    border-radius: 10px;
+    padding: 24px 38px;;
+    width: 100%;
+}
+
+.excellent-mark {
+    margin-top: 35px;
+    margin-left: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.form-mock {
+    margin-top: 55px;
+    height: 135px;
+    color: black;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-card {
+    width: 306px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.last-block {
+    margin-bottom: 55px;
+}
+
+.footer {
+    background-color: #F4F0FA;
+    color: #233878;
+}
+
+.footer-content {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info {
+    background-color: #ECE0F2;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.footer .phone {
+    font-size: 21px;
+}
+
+.footer .email {
+    font-size: 14px;
+}
+

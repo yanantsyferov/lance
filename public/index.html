@@ -6,12 +6,260 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>hello-world</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but hello-world doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div class="main-wrapper">
+      <header class="container header-wrapper">
+        <div class="header-content">
+          <div class="header-logo">
+            <img src="logo.svg" alt="logo">
+          </div>
+          <div class="header-menu">
+            <div class="menu">
+              <div class="menu-item">
+                Обмен валют
+              </div>
+              <div class="menu-item">
+                Как это работает
+              </div>
+              <div class="menu-item">
+                Вопросы и ответы
+              </div>
+              <div class="menu-item">
+                Разработчикам
+              </div>
+            </div>
+          </div>
+          <div class="header-login">
+            <div class="login-icon">
+              <img src="lock.svg" alt="lock">
+            </div>
+            <div class="login-button">Вход</div>/
+            <div class="registration-button">Регистрация</div>
+          </div>
+        </div>
+      </header>
+      <main class="container">
+        <div class="exchange">
+          <div class="exchange-info">
+            <h1 class="exchange-header">
+              Обмен криптовалют
+              на фиатные деньги
+            </h1>
+            <div class="exchange-description">
+              Купить криптовалюту с любой банковской карты
+            </div>
+            <div class="currency-info">
+              <div class="currency-cards-wrapper">
+                <div class="currency-card">
+                  <div class="currency-card-header">
+                    <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
+                    <div class="currency-from-name">BTC</div> /
+                    <div class="currency-to-name">EUR</div>
+                  </div>
+                  <div class="currency-to-result">€ 7903.56</div>
+                  <div class="currency-difference">+2,7%</div>
+                  <div class="currency-updated-time">За последние 24 часа</div>
+                </div>
+                <div class="currency-card">
+                  <div class="currency-card-header">
+                    <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
+                    <div class="currency-from-name">BTC</div> /
+                    <div class="currency-to-name">EUR</div>
+                  </div>
+                  <div class="currency-to-result">€ 7903.56</div>
+                  <div class="currency-difference">+2,7%</div>
+                  <div class="currency-updated-time">За последние 24 часа</div>
+                </div>
+                <div class="currency-card">
+                  <div class="currency-card-header">
+                    <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
+                    <div class="currency-from-name">BTC</div> /
+                    <div class="currency-to-name">EUR</div>
+                  </div>
+                  <div class="currency-to-result">€ 7903.56</div>
+                  <div class="currency-difference">+2,7%</div>
+                  <div class="currency-updated-time">За последние 24 часа</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exchange-form">
+            Здесь должна быть форма
+          </div>
+        </div>
+        <div class="trust content-block">
+          <h2 class="content-block-header">Почему я должен доверять вам?</h2>
+          <div class="trust-cards-wrapper">
+            <div class="trust-card">
+              <div class="trust-image-wrapper">
+                <img src="PCI.svg" alt="pci">
+              </div>
+              <h3 class="trust-card-header">Мы соответствуем
+                PCI Security Standards</h3>
+              <div class="trust-card-description">Это значит что данные вашей карты не попадут к третим лицам.</div>
+            </div>
+            <div class="trust-card">
+              <div class="trust-image-wrapper">
+                <img src="license.svg" alt="pci">
+              </div>
+              <h3 class="trust-card-header">Соответствуем всем требованиям законодательства</h3>
+              <div class="trust-card-description">Сделка проходит легально, а это значит, что вы обязательно получите свои средства.
+                Лицензия</div>
+            </div>
+            <div class="trust-card">
+              <div class="trust-image-wrapper">
+                <img src="coins.svg" alt="pci">
+              </div>
+              <h3 class="trust-card-header">Имеем собственные резервы для быстрого обмена</h3>
+              <div class="trust-card-description">Вы почти моментально получите средства на свой счет.</div>
+            </div>
+            <div class="trust-card">
+              <div class="trust-image-wrapper">
+                <img src="exchange.svg" alt="pci">
+              </div>
+              <h3 class="trust-card-header">У нас лучший курс обмена</h3>
+              <div class="trust-card-description">Мы получаем прямой курс с ведущих криптобирж и делаем вам лучшие условия для обмена</div>
+            </div>
+          </div>
+        </div>
+        <div class="process content-block">
+          <h3 class="content-block-header">Ок, а как происходит обмен?</h3>
+          <div class="steps-wrapper">
+            <div class="step">
+              <h4 class="step-header">
+                Вы выбираете валюту
+                и способ оплаты
+              </h4>
+              <div class="step-arrow">
+                <div class="arrow-body"></div>
+              </div>
+              <div class="step-description">
+                Мы принимаем: visa, mastercard, SEPA, qiwi, paypal, яндекс.деньги
+              </div>
+            </div>
+            <div class="step">
+              <h4 class="step-header">
+                Вы выбираете валюту
+                и способ оплаты
+              </h4>
+              <div class="step-arrow">
+                <div class="arrow-body"></div>
+              </div>
+              <div class="step-description">
+                Мы принимаем: visa, mastercard, SEPA, qiwi, paypal, яндекс.деньги
+              </div>
+            </div>
+            <div class="step">
+              <h4 class="step-header">
+                Вы выбираете валюту
+                и способ оплаты
+              </h4>
+              <div class="step-description">
+                Мы принимаем: visa, mastercard, SEPA, qiwi, paypal, яндекс.деньги
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-block">
+          <h3 class="content-block-header">Круто! А другие что говорят?</h3>
+          <div class="comments-wrapper">
+            <div class="comments-cards-wrapper">
+              <div class="comment-card">
+                <div class="comment-header">
+                  <div class="comment-name">Рик Санчез</div>
+                  <div class="comment-stars"></div>
+                </div>
+                <div class="comment-text">
+                  Ваббалабу даб даб! Это самый отличный сервис в этом измерении! Обменял немного шмеклей на биткойны. Все очень быстро и просто!
+                </div>
+              </div>
+              <div class="comment-card">
+                <div class="comment-header">
+                  <div class="comment-name">Марти Макфлай</div>
+                  <div class="comment-stars"></div>
+                </div>
+                <div class="comment-text">
+                  Вместе с Доком вернулись в это время, чтобы закупиться биткойнами. Выбрали Safe currency потому, что они профессионалы своего дела. P.S. Скупайте биткойны. Потом спасибо скажете ;)
+                </div>
+              </div>
+            </div>
+            <div class="fake-comments-warning">
+              Мы понимаем, что в интернете полно фейковых отзывов, но мы размещаем реальные :) Поэтому присылайте свои отзывы к нам на почту: inbox@safecurrency.com, или отмечайте нас в соц. сетях @safecurrency
+            </div>
+            <div class="excellent-mark">
+              Safecurrency оценили "Excellent" на <img src="trustpilot.svg" alt="trustpilot">
+            </div>
+          </div>
+        </div>
+        <div class="content-block">
+          <h3 class="content-block-header">Пока вы думаете, курс растет</h3>
+          <div class="currency-grow">
+            Купите криптовалюту сейчас. Не откладывайте на завтра, ведь завтра она может подорожать ;)
+          </div>
+          <div class="form-mock">
+            Здесь должна быть форма
+          </div>
+        </div>
+        <div class="partners content-block last-block">
+          <h3 class="content-block-header">Наши партнеры</h3>
+          <div class="partners-wrapper">
+            <div class="partners-cards-wrapper">
+              <div class="partner-card">
+                <img src="partner1.svg" alt="partner">
+              </div>
+              <div class="partner-card">
+                <img src="partner1.svg" alt="partner">
+              </div>
+              <div class="partner-card">
+                <img src="partner1.svg" alt="partner">
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-content container">
+          <div class="footer-logo-info">
+            <div>
+              <img src="logo.svg" alt="logo">
+            </div>
+            <div class="phone">
+              +371 67 16 60 00
+            </div>
+            <div class="email">
+              support@safecurrency.com
+            </div>
+          </div>
+          <div class="footer-links">
+            <div><a href="">Помощь</a></div>
+            <div><a href="">Условия использования</a></div>
+            <div><a href="">Политика конфиденциальности</a></div>
+            <div><a href="">Партнерская программа</a></div>
+          </div>
+          <div class="footer-links">
+            <div><a href="">Обмен валют</a></div>
+            <div><a href="">Вопросы и ответы</a></div>
+            <div><a href="">Разработчикам</a></div>
+            <div><a href="">Личный кабинет</a></div>
+          </div>
+          <div class="footer-social">
+            <div class="copyright">© 2018-2019 Safe currency</div>
+            <div class="social-links"></div>
+            <div class="payments"></div>
+          </div>
+        </div>
+        <div class="company-info">
+          <div>
+            Safe Currency LLP, Company number OC421760, Registered office address: 20-22 Wenlock Road, London, England, N1 7GU Phone: +44 20 3287 1368
+          </div>
+        </div>
+      </footer>
+    </div>
+    <img class="top-bg-image" src="bg-illustration.svg">
+    <img class="middle-bg-image" src="bg-illustration2.svg">
+    <img class="bottom-bg-image" src="bg-illustration3.svg">
   </body>
 </html>
