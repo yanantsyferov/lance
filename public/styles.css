@@ -5,6 +5,10 @@ body {
     position: relative;
 }
 
+.mobile {
+    display: none;
+}
+
 .logo {
     width: 173px;
     height: 50px;
@@ -73,7 +77,7 @@ body {
 }
 
 .container {
-    width: 1020px;
+    max-width: 1020px;
     margin: 0 auto;
 }
 
@@ -421,6 +425,14 @@ body {
         display: none;
     }
 
+    .container {
+        padding: 20px;
+    }
+
+    .mobile {
+        display: block;
+    }
+
     .exchange {
         flex-direction: column;
         align-items: center;
@@ -431,5 +443,23 @@ body {
         text-align: center;
         margin-top: 0;
         margin-bottom: 60px;
+    }
+
+    .trust-cards-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .trust-card {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .top-bg-image, .middle-bg-image, .bottom-bg-image  {
+        display: none;
+    }
+
+    .content-block {
+        margin-top: 0;
     }
 }
