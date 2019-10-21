@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>hello-world</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="container header-wrapper">
+        <div class="header-content">
+          <div class="header-logo">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <div class="header-menu">
+            <div class="menu">
+              <div class="menu-item">
+                Обмен валют
+              </div>
+              <div class="menu-item">
+                Как это работает
+              </div>
+              <div class="menu-item questions-item">
+                Вопросы и ответы
+                <div class="common-questions-wrapper">
+                  <div class="common-questions">
+                    <div class="question-columns-wrapper">
+                      <div class="question-column">
+                        <h4>Общие вопросы:</h4>
+                        <ul>
+                          <li><a>Как зарегистрировать кошелек</a></li>
+                          <li><a>Как выглядит адрес кошелька</a></li>
+                          <li><a>Что такое криптовалюта</a></li>
+                          <li><a>Что такое блокчейн</a></li>
+                        </ul>
+                      </div>
+                      <div class="question-column">
+                        <h4>Проблемы с обменом</h4>
+                        <ul>
+                          <li><a>Не пришли деньги после обмена</a></li>
+                          <li><a>Долго не приходит смс с кодом</a></li>
+                          <li><a>Я не правильно указал кошелек</a></li>
+                          <li><a>Сколько длится обмен?</a></li>
+                        </ul>
+                      </div>
+                      <div class="question-column">
+                        <h4>Продажа криптовалюты</h4>
+                        <ul>
+                          <li><a>Какие криптовалюты вы принимаете?</a></li>
+                          <li><a>Способы вывода денег</a></li>
+                          <li><a>Какая коммисия на обмен?</a></li>
+                        </ul>
+                      </div>
+                      <div class="question-column">
+                        <h4>Не нашли ответ?</h4>
+                        <button class="supports">Написать в тех. поддержку</button>
+                      </div>
+                    </div>
+                    <button class="all-questions">
+                       Все вопросы и ответы
+                      <img class="question-arrow" src="images/arrow.svg" alt="arrow">
+                    </button>
+                  </div>
+                </div>
+                </div>
+              <div class="menu-item">
+                Разработчикам
+              </div>
+            </div>
+          </div>
+          <div class="header-login">
+            <div class="login-icon">
+              <img src="images/lock.svg" alt="lock">
+            </div>
+            <div class="login-button"><a href="login-form.html">Вход</a></div>/
+            <div class="registration-button"><a href="registration-form.html">Регистрация</a></div>
+          </div>
+          <div class="burger-wrapper">
+            <button class="burger-button">
+              <img src="images/burger.svg" alt="burger">
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="container for-developers">
+        <h1>
+            Разработчикам
+        </h1>
+        <div class="content-sides-wrapper">
+            <div class="left-side">
+                <div>
+                    <h3 class="content-block-header">General Usage</h3>
+                    <div class="currency-grow">
+                        <p>
+                                NOTE: All API URLs should use the domain api.kraken.com.
+                        </p>
+                        <p>
+                                You must supply a user agent string while creating a request header else you will not be able to connect to the API.
+                        </p>
+                        <p>
+                                Kraken has the 'Browser Integrity Check' enabled.
+                        </p>
+                        <p>
+                                You may get an error if your request headers are missing a user agent or have a non-standard user agent.
+                        </p>
+                        <p>
+                                If you're unable to create any standard requests that our system permits, send us a full copy of the request(s) that you're attempting, including your IP address and all headers. This information would allow us to investigate further.
+                        </p>
+                        <p>                 
+                                Public methods can use either GET or POST.
+                        </p>
+                        <p>   
+                                Private methods must use POST and be set up as follows:
+                        </p>
+                    </div>
+                    <div class="form-mock">
+                            Здесь должен быть сниппет
+                    </div>
+                </div>
+                <h2></h2>
+                <div class="content-block">
+                    <h3 class="content-block-header">Public market data</h3>
+                    <h4>Get server time</h4>
+                    <div class="currency-grow">
+                        <p>
+                            URL: <a href="https://api.kraken.com/0/public/Assets">https://api.kraken.com/0/public/Assets</a><br>
+                            Input:
+                        </p>
+                    </div>
+                    <div class="form-mock">
+                            Здесь должен быть сниппет
+                    </div>
+                    <p>
+                            You must supply a user agent string while creating a request header else you will not be able to connect to the API.
+                    </p>
+                    <p>
+                            Kraken has the 'Browser Integrity Check' enabled.
+                    </p>
+                    <p>
+                            You may get an error if your request headers are missing a user agent or have a non-standard user agent.
+                    </p>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="sticky-menu-wrapper">
+                    <div class="sticky-menu-content">
+                        <p>General Usage</p>
+                        <p>Public market data</p>
+                         <ul>
+                             <li>Get server time</li>
+                             <li>Get asset info</li>
+                             <li>Get tradable asset pairs</li>
+                             <li>Get ticker information</li>
+                         </ul>
+                         <p>Private user data</p>
+                         <p>Private user trading</p>
+                         <p>Private user funding</p>
+                         <p>WebSockets authentication</p>
+                         <p>Example API clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-content container">
+          <div class="footer-logo-info">
+            <div>
+              <img src="images/logo.svg" alt="logo">
+            </div>
+            <div class="phone">
+              +371 67 16 60 00
+            </div>
+            <div class="email">
+              support@safecurrency.com
+            </div>
+          </div>
+          <div class="footer-links main">
+            <div><a href="">Помощь</a></div>
+            <div><a href="">Условия использования</a></div>
+            <div><a href="">Политика конфиденциальности</a></div>
+            <div><a href="">Партнерская программа</a></div>
+          </div>
+          <div class="footer-links additional">
+            <div><a href="">Обмен валют</a></div>
+            <div><a href="">Вопросы и ответы</a></div>
+            <div><a href="">Разработчикам</a></div>
+            <div><a href="">Личный кабинет</a></div>
+          </div>
+          <div class="footer-social">
+            <div class="copyright">© 2018-2019 Safe currency</div>
+            <div class="social-links">
+              <a href="" class="link">
+                <img src="images/fb.svg" alt="fb">
+              </a>
+              <a href="" class="link">
+                <img src="images/tw.svg" alt="fb">
+              </a>
+              <a href="" class="link">
+                <img src="images/in.svg" alt="fb">
+              </a>
+              <a href="" class="link">
+                <img src="images/vk.svg" alt="fb">
+              </a>
+            </div>
+            <div class="company-info-mobile">
+              Safe Currency LLP, Company number OC421760, Registered office address: 20-22 Wenlock Road, London, England, N1 7GU Phone: +44 20 3287 1368
+            </div>
+            <div class="payments">
+              <div class="payment"><img src="images/visa.svg" alt="visa"></div>
+              <div class="payment"><img src="images/mscard.svg" alt="mastercard"></div>
+              <div class="payment"><img src="images/sepa.svg" alt="sepa"></div>
+            </div>
+          </div>
+        </div>
+        <div class="company-info">
+          <div>
+            Safe Currency LLP, Company number OC421760, Registered office address: 20-22 Wenlock Road, London, England, N1 7GU Phone: +44 20 3287 1368
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

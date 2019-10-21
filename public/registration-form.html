@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <title>hello-world</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="popup-wrapper">
+        <div class="popup registration">
+            <button class="close">
+                <img src="images/close.svg" alt="close">
+            </button>
+            <form>
+                <div class="pair-field">
+                    <div class="email-filed field">
+                        <label for="firstname">Имя</label>
+                        <input type="text" name="firstname">
+                    </div>
+                    <div class="password-filed field">
+                        <label for="lastname">Фамилия</label>
+                        <input type="text" name="lastname">
+                    </div>
+                </div>
+                <div class="pair-field">
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="example@mail.com" name="email">
+                        </div>
+                        <div class="password-filed field">
+                            <label for="adress">Адрес</label>
+                            <input type="text" name="adress">
+                        </div>
+                    </div>
+                <div class="pair-field">
+                    <div class="field">
+                        <label for="password-create">Придумайте пароль</label>
+                        <input type="password" name="password-create">
+                    </div>
+                    <div class="password-filed field">
+                        <label for="password-repeat">Повторите пароль</label>
+                        <input type="password" name="password-repeat">
+                    </div>
+                </div>
+                <div class="submit-button-wrapper">
+                    <button type="submit" class="submit-button">Зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <img class="top-bg-image" src="images/bg-illustration.svg">
+  </body>
+</html>

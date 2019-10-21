@@ -14,7 +14,7 @@
       <header class="container header-wrapper">
         <div class="header-content">
           <div class="header-logo">
-            <img src="logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo">
           </div>
           <div class="header-menu">
             <div class="menu">
@@ -24,9 +24,49 @@
               <div class="menu-item">
                 Как это работает
               </div>
-              <div class="menu-item">
+              <div class="menu-item questions-item">
                 Вопросы и ответы
-              </div>
+                <div class="common-questions-wrapper">
+                  <div class="common-questions">
+                    <div class="question-columns-wrapper">
+                      <div class="question-column">
+                        <h4>Общие вопросы:</h4>
+                        <ul>
+                          <li><a>Как зарегистрировать кошелек</a></li>
+                          <li><a>Как выглядит адрес кошелька</a></li>
+                          <li><a>Что такое криптовалюта</a></li>
+                          <li><a>Что такое блокчейн</a></li>
+                        </ul>
+                      </div>
+                      <div class="question-column">
+                        <h4>Проблемы с обменом</h4>
+                        <ul>
+                          <li><a>Не пришли деньги после обмена</a></li>
+                          <li><a>Долго не приходит смс с кодом</a></li>
+                          <li><a>Я не правильно указал кошелек</a></li>
+                          <li><a>Сколько длится обмен?</a></li>
+                        </ul>
+                      </div>
+                      <div class="question-column">
+                        <h4>Продажа криптовалюты</h4>
+                        <ul>
+                          <li><a>Какие криптовалюты вы принимаете?</a></li>
+                          <li><a>Способы вывода денег</a></li>
+                          <li><a>Какая коммисия на обмен?</a></li>
+                        </ul>
+                      </div>
+                      <div class="question-column">
+                        <h4>Не нашли ответ?</h4>
+                        <button class="supports">Написать в тех. поддержку</button>
+                      </div>
+                    </div>
+                    <button class="all-questions">
+                       Все вопросы и ответы
+                      <img class="question-arrow" src="images/arrow.svg" alt="arrow">
+                    </button>
+                  </div>
+                </div>
+                </div>
               <div class="menu-item">
                 Разработчикам
               </div>
@@ -34,10 +74,15 @@
           </div>
           <div class="header-login">
             <div class="login-icon">
-              <img src="lock.svg" alt="lock">
+              <img src="images/lock.svg" alt="lock">
             </div>
-            <div class="login-button">Вход</div>/
-            <div class="registration-button">Регистрация</div>
+            <div class="login-button"><a href="login-form.html">Вход</a></div>/
+            <div class="registration-button"><a href="registration-form.html">Регистрация</a></div>
+          </div>
+          <div class="burger-wrapper">
+            <button class="burger-button">
+              <img src="images/burger.svg" alt="burger">
+            </button>
           </div>
         </div>
       </header>
@@ -55,7 +100,7 @@
               <div class="currency-cards-wrapper">
                 <div class="currency-card">
                   <div class="currency-card-header">
-                    <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
+                    <div class="currency-from-symbol"><img src="images/bitcoin.svg" alt="bitcoin"></div>
                     <div class="currency-from-name">BTC</div> /
                     <div class="currency-to-name">EUR</div>
                   </div>
@@ -65,7 +110,7 @@
                 </div>
                 <div class="currency-card">
                   <div class="currency-card-header">
-                    <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
+                    <div class="currency-from-symbol"><img src="images/bitcoin.svg" alt="bitcoin"></div>
                     <div class="currency-from-name">BTC</div> /
                     <div class="currency-to-name">EUR</div>
                   </div>
@@ -75,7 +120,7 @@
                 </div>
                 <div class="currency-card">
                   <div class="currency-card-header">
-                    <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
+                    <div class="currency-from-symbol"><img src="images/bitcoin.svg" alt="bitcoin"></div>
                     <div class="currency-from-name">BTC</div> /
                     <div class="currency-to-name">EUR</div>
                   </div>
@@ -89,38 +134,38 @@
           <div class="exchange-form">
             Здесь должна быть форма
           </div>
-          <div class="currency-info mobile">
-            <div class="currency-cards-wrapper">
-              <div class="currency-card">
-                <div class="currency-card-header">
-                  <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
-                  <div class="currency-from-name">BTC</div> /
-                  <div class="currency-to-name">EUR</div>
-                </div>
-                <div class="currency-to-result">€ 7903.56</div>
-                <div class="currency-difference">+2,7%</div>
-                <div class="currency-updated-time">За последние 24 часа</div>
+        </div>
+        <div class="currency-info mobile">
+          <div class="currency-cards-wrapper">
+            <div class="currency-card">
+              <div class="currency-card-header">
+                <div class="currency-from-symbol"><img src="images/bitcoin.svg" alt="bitcoin"></div>
+                <div class="currency-from-name">BTC</div> /
+                <div class="currency-to-name">EUR</div>
               </div>
-              <div class="currency-card">
-                <div class="currency-card-header">
-                  <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
-                  <div class="currency-from-name">BTC</div> /
-                  <div class="currency-to-name">EUR</div>
-                </div>
-                <div class="currency-to-result">€ 7903.56</div>
-                <div class="currency-difference">+2,7%</div>
-                <div class="currency-updated-time">За последние 24 часа</div>
+              <div class="currency-to-result">€ 7903.56</div>
+              <div class="currency-difference">+2,7%</div>
+              <div class="currency-updated-time">За последние 24 часа</div>
+            </div>
+            <div class="currency-card">
+              <div class="currency-card-header">
+                <div class="currency-from-symbol"><img src="images/bitcoin.svg" alt="bitcoin"></div>
+                <div class="currency-from-name">BTC</div> /
+                <div class="currency-to-name">EUR</div>
               </div>
-              <div class="currency-card">
-                <div class="currency-card-header">
-                  <div class="currency-from-symbol"><img src="bitcoin.svg" alt="bitcoin"></div>
-                  <div class="currency-from-name">BTC</div> /
-                  <div class="currency-to-name">EUR</div>
-                </div>
-                <div class="currency-to-result">€ 7903.56</div>
-                <div class="currency-difference">+2,7%</div>
-                <div class="currency-updated-time">За последние 24 часа</div>
+              <div class="currency-to-result">€ 7903.56</div>
+              <div class="currency-difference">+2,7%</div>
+              <div class="currency-updated-time">За последние 24 часа</div>
+            </div>
+            <div class="currency-card">
+              <div class="currency-card-header">
+                <div class="currency-from-symbol"><img src="images/bitcoin.svg" alt="bitcoin"></div>
+                <div class="currency-from-name">BTC</div> /
+                <div class="currency-to-name">EUR</div>
               </div>
+              <div class="currency-to-result">€ 7903.56</div>
+              <div class="currency-difference">+2,7%</div>
+              <div class="currency-updated-time">За последние 24 часа</div>
             </div>
           </div>
         </div>
@@ -129,7 +174,7 @@
           <div class="trust-cards-wrapper">
             <div class="trust-card">
               <div class="trust-image-wrapper">
-                <img src="PCI.svg" alt="pci">
+                <img src="images/PCI.svg" alt="pci">
               </div>
               <h3 class="trust-card-header">Мы соответствуем
                 PCI Security Standards</h3>
@@ -137,7 +182,7 @@
             </div>
             <div class="trust-card">
               <div class="trust-image-wrapper">
-                <img src="license.svg" alt="pci">
+                <img src="images/license.svg" alt="pci">
               </div>
               <h3 class="trust-card-header">Соответствуем всем требованиям законодательства</h3>
               <div class="trust-card-description">Сделка проходит легально, а это значит, что вы обязательно получите свои средства.
@@ -145,14 +190,14 @@
             </div>
             <div class="trust-card">
               <div class="trust-image-wrapper">
-                <img src="coins.svg" alt="pci">
+                <img src="images/coins.svg" alt="pci">
               </div>
               <h3 class="trust-card-header">Имеем собственные резервы для быстрого обмена</h3>
               <div class="trust-card-description">Вы почти моментально получите средства на свой счет.</div>
             </div>
             <div class="trust-card">
               <div class="trust-image-wrapper">
-                <img src="exchange.svg" alt="pci">
+                <img src="images/exchange.svg" alt="pci">
               </div>
               <h3 class="trust-card-header">У нас лучший курс обмена</h3>
               <div class="trust-card-description">Мы получаем прямой курс с ведущих криптобирж и делаем вам лучшие условия для обмена</div>
@@ -167,11 +212,14 @@
                 Вы выбираете валюту
                 и способ оплаты
               </h4>
-              <div class="step-arrow">
-                <div class="arrow-body"></div>
+              <div class="step-arrow-horisontal">
+                <img src="images/arrow.svg" alt="arrow">
               </div>
               <div class="step-description">
                 Мы принимаем: visa, mastercard, SEPA, qiwi, paypal, яндекс.деньги
+              </div>
+              <div class="step-arrow-vertical">
+                <img src="images/arrow.svg" alt="arrow">
               </div>
             </div>
             <div class="step">
@@ -179,11 +227,14 @@
                 Вы выбираете валюту
                 и способ оплаты
               </h4>
-              <div class="step-arrow">
-                <div class="arrow-body"></div>
+              <div class="step-arrow-horisontal">
+                <img src="images/arrow.svg" alt="arrow">
               </div>
               <div class="step-description">
                 Мы принимаем: visa, mastercard, SEPA, qiwi, paypal, яндекс.деньги
+              </div>
+              <div class="step-arrow-vertical">
+                <img src="images/arrow.svg" alt="arrow">
               </div>
             </div>
             <div class="step">
@@ -209,6 +260,9 @@
                 <div class="comment-text">
                   Ваббалабу даб даб! Это самый отличный сервис в этом измерении! Обменял немного шмеклей на биткойны. Все очень быстро и просто!
                 </div>
+                <div class="comment-read-more">
+                  Читать полностью
+                </div>
               </div>
               <div class="comment-card">
                 <div class="comment-header">
@@ -218,13 +272,16 @@
                 <div class="comment-text">
                   Вместе с Доком вернулись в это время, чтобы закупиться биткойнами. Выбрали Safe currency потому, что они профессионалы своего дела. P.S. Скупайте биткойны. Потом спасибо скажете ;)
                 </div>
+                <div class="comment-read-more">
+                  Читать полностью
+                </div>
               </div>
             </div>
             <div class="fake-comments-warning">
               Мы понимаем, что в интернете полно фейковых отзывов, но мы размещаем реальные :) Поэтому присылайте свои отзывы к нам на почту: inbox@safecurrency.com, или отмечайте нас в соц. сетях @safecurrency
             </div>
             <div class="excellent-mark">
-              Safecurrency оценили "Excellent" на <img src="trustpilot.svg" alt="trustpilot">
+              Safecurrency оценили "Excellent" на <img src="images/trustpilot.svg" alt="trustpilot">
             </div>
           </div>
         </div>
@@ -242,13 +299,13 @@
           <div class="partners-wrapper">
             <div class="partners-cards-wrapper">
               <div class="partner-card">
-                <img src="partner1.svg" alt="partner">
+                <img src="images/partner1.svg" alt="partner">
               </div>
               <div class="partner-card">
-                <img src="partner1.svg" alt="partner">
+                <img src="images/partner1.svg" alt="partner">
               </div>
               <div class="partner-card">
-                <img src="partner1.svg" alt="partner">
+                <img src="images/partner1.svg" alt="partner">
               </div>
             </div>
           </div>
@@ -258,7 +315,7 @@
         <div class="footer-content container">
           <div class="footer-logo-info">
             <div>
-              <img src="logo.svg" alt="logo">
+              <img src="images/logo.svg" alt="logo">
             </div>
             <div class="phone">
               +371 67 16 60 00
@@ -267,13 +324,13 @@
               support@safecurrency.com
             </div>
           </div>
-          <div class="footer-links">
+          <div class="footer-links main">
             <div><a href="">Помощь</a></div>
             <div><a href="">Условия использования</a></div>
             <div><a href="">Политика конфиденциальности</a></div>
             <div><a href="">Партнерская программа</a></div>
           </div>
-          <div class="footer-links">
+          <div class="footer-links additional">
             <div><a href="">Обмен валют</a></div>
             <div><a href="">Вопросы и ответы</a></div>
             <div><a href="">Разработчикам</a></div>
@@ -283,22 +340,25 @@
             <div class="copyright">© 2018-2019 Safe currency</div>
             <div class="social-links">
               <a href="" class="link">
-                <img src="fb.svg" alt="fb">
+                <img src="images/fb.svg" alt="fb">
               </a>
               <a href="" class="link">
-                <img src="tw.svg" alt="fb">
+                <img src="images/tw.svg" alt="fb">
               </a>
               <a href="" class="link">
-                <img src="in.svg" alt="fb">
+                <img src="images/in.svg" alt="fb">
               </a>
               <a href="" class="link">
-                <img src="vk.svg" alt="fb">
+                <img src="images/vk.svg" alt="fb">
               </a>
             </div>
+            <div class="company-info-mobile">
+              Safe Currency LLP, Company number OC421760, Registered office address: 20-22 Wenlock Road, London, England, N1 7GU Phone: +44 20 3287 1368
+            </div>
             <div class="payments">
-              <div class="payment"><img src="visa.svg" alt="visa"></div>
-              <div class="payment"><img src="mscard.svg" alt="mastercard"></div>
-              <div class="payment"><img src="sepa.svg" alt="sepa"></div>
+              <div class="payment"><img src="images/visa.svg" alt="visa"></div>
+              <div class="payment"><img src="images/mscard.svg" alt="mastercard"></div>
+              <div class="payment"><img src="images/sepa.svg" alt="sepa"></div>
             </div>
           </div>
         </div>
@@ -309,8 +369,9 @@
         </div>
       </footer>
     </div>
-    <img class="top-bg-image" src="bg-illustration.svg">
-    <img class="middle-bg-image" src="bg-illustration2.svg">
-    <img class="bottom-bg-image" src="bg-illustration3.svg">
+    <img class="top-bg-image" src="images/bg-illustration.svg">
+    <img class="middle-bg-image" src="images/bg-illustration2.svg">
+    <img class="bottom-bg-image" src="images/bg-illustration3.svg">
+    <img class="mobile-bg-image" src="images/bg-illustration4.svg">
   </body>
 </html>
